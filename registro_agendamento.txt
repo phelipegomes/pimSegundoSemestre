@@ -1,0 +1,4 @@
+1 001 02 Leste Bruno almeida pedro 01 Ortopedia 50,9 20 09 2020 10
+1 002 02 Leste bruno almeida pedro 03 Fisioterapia 70,0 20 09 2020 10
+1 003 02 Leste bruno almeida pedro 04 Nutrição 78,9 20 09 2020 12
+1 004 03 Oeste pedro aleos aoendaiu 02 Ginecologia 60,0 20 09 2020 01

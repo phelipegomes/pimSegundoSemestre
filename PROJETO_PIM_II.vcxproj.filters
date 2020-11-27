@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Paciente">
+      <UniqueIdentifier>{6c6ebd45-f6b2-4f25-8a9f-7cfbaed69b6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Colaborador">
+      <UniqueIdentifier>{338d4029-21c9-48fe-b151-027d092abf37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Agendamento">
+      <UniqueIdentifier>{8b1fa0c8-f47f-476c-b587-d8a8d525d161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Arquivos">
+      <UniqueIdentifier>{e690e37d-cdbf-460d-890c-29817ed3a6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Cadastros">
+      <UniqueIdentifier>{e1e111ce-3515-4dbb-a579-6d5c50b4ee3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Login">
+      <UniqueIdentifier>{30bca564-2059-4572-89db-7cffa189dfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Relatorios">
+      <UniqueIdentifier>{b42f5d80-d409-4749-9c53-5bf36cfaff5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Medicos">
+      <UniqueIdentifier>{bebca0c8-9347-4769-ba99-ebdefe0ff251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Faturamento">
+      <UniqueIdentifier>{70e34de0-675e-4a75-9582-5d5774137547}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SETUP_LOCALE.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_data_hora_sistema.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_tente_novamente.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_boas_vindas.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_tela_de_acesso.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_esconde_senha.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_verificar_login.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="01_MAIN.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_comando_invalido.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_dados_gravados.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_parametros_para_consulta.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="CADASTRAR_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_data_atual.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_senha_master_invalida.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_data_pesquisada.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_nenhum_resultado_encontrado.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_OPCAO_POS_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_principal.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_reclamacao_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_desconectado_com_sucesso.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_encerrando_aplicacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_desenho_de_acesso.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_usuario_senha.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_mes_pesquisado.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_especialidade_valor.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_busca_data_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_data_pesquisada_periodo.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_busca_data_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_TESTE.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_usuario_senha.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_codigo_id.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_data.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_data_periodo.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_data_e_unidade.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_mes_ano.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_nome.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_usuario_senha.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_data_e_unidade_pesquisada.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CADASTRA_unidade.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_unidade.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CADASTRA_especialidade.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_principal.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_reclamacao_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_OPCAO_parametro_consulta.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CADASTRAR_reclamacao.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_reclamacao_elogio.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="CADASTRAR_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="CONSULTAR_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_PACIENTE.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_codigo_id.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_nome.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_unidade.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_CONSULTAR_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_paciente.c">
+      <Filter>Arquivos de Origem\Paciente</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ATUALIZA_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="CADASTRAR_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="CONSULTAR_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_COLABORADOR.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_codigo_id.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_nome.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_unidade.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_CONSULTAR_colaborador.c">
+      <Filter>Arquivos de Origem\Colaborador</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ATUALIZA_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="CADASTRAR_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CANCELAR_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_busca_mes_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_data.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_data_e_unidade.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_unidade.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_selecionar_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_verificar_codigo_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_CONSULTA_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_POS_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_agendamento_cancelado.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_cancelar_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_CONSULTAR_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_novo_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_CONSULTA_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_mes_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_OPCAO_POS_agendamento.c">
+      <Filter>Arquivos de Origem\Agendamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_cadastro.c">
+      <Filter>Arquivos de Origem\Cadastros</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_novo_cadastro.c">
+      <Filter>Arquivos de Origem\Cadastros</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_cadastro.c">
+      <Filter>Arquivos de Origem\Cadastros</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_OPCAO_relatorio.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_RELATORIO_consulta_agendadas.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_RELATORIO_elogio_registrados.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_RELATORIO_reclamacao_registradas.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_fim_do_relatorio.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_OPCAO_relatorio.c">
+      <Filter>Arquivos de Origem\Relatorios</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_CONSULTAR_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="LER_ARQUIVO_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_unidade.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_nome.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_codigo_id.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_MEDICO.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="ESCREVER_ARQUIVO_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="CONSULTAR_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="CADASTRAR_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_LEITURA_medico.c">
+      <Filter>Arquivos de Origem\Medicos</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_busca_mes_faturamento.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_RELATORIO_FATURAMENTO_mensal_unidade.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_faturamento.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_MENU_faturamento.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_FATURAMENTO_mensal_unidade.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_FATURAMENTO_diario_unidade.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="MENU_RELATORIO_FATURAMENTO_diario_unidade.c">
+      <Filter>Arquivos de Origem\Faturamento</Filter>
+    </ClCompile>
+    <ClCompile Include="PRINT_FATURAMENTO_mensal.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="FUNCAO_arquivo_nao_encontrado.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="ABRIR_ESCRITA_paciente.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cabecalho.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="funcoes.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="definicoes.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="variaveis.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="arquivos.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="prints.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="menus.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="cadastros.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="paciente.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="colaborador.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="medico.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="agendamento.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="relatorios.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="login.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

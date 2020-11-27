@@ -1,0 +1,4 @@
+001 02 Leste 07 11 2020 Bruno Roger achei legal 
+002 02 Leste 07 11 2020 Leonardo Pedro achei aceitavel.
+003 02 Leste 07 11 2020 Maria Paula achei interessante.
+004 02 Leste 07 11 2020 Bruno Russo interessante.

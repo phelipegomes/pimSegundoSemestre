@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{d21d9249-d22f-4f4b-bcbc-4f4e87af7701}</ProjectGuid>
+    <RootNamespace>PROJETOPIMII</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="01_MAIN.c" />
+    <ClCompile Include="ABRIR_ATUALIZA_agendamento.c" />
+    <ClCompile Include="ABRIR_ATUALIZA_colaborador.c" />
+    <ClCompile Include="ABRIR_ESCRITA_agendamento.c" />
+    <ClCompile Include="ABRIR_ESCRITA_colaborador.c" />
+    <ClCompile Include="ABRIR_ESCRITA_elogio.c" />
+    <ClCompile Include="ABRIR_ESCRITA_medico.c" />
+    <ClCompile Include="ABRIR_ESCRITA_paciente.c" />
+    <ClCompile Include="ABRIR_ESCRITA_reclamacao.c" />
+    <ClCompile Include="CADASTRAR_colaborador.c" />
+    <ClCompile Include="CADASTRAR_elogio.c" />
+    <ClCompile Include="CADASTRAR_medico.c" />
+    <ClCompile Include="CADASTRAR_paciente.c" />
+    <ClCompile Include="FUNCAO_arquivo_nao_encontrado.c" />
+    <ClCompile Include="FUNCAO_CADASTRAR_reclamacao.c" />
+    <ClCompile Include="FUNCAO_CANCELAR_agendamento.c" />
+    <ClCompile Include="CONSULTAR_colaborador.c" />
+    <ClCompile Include="CONSULTAR_medico.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_COLABORADOR.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_MEDICO.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_data.c" />
+    <ClCompile Include="ABRIR_LEITURA_agendamento.c" />
+    <ClCompile Include="ABRIR_LEITURA_colaborador.c" />
+    <ClCompile Include="ABRIR_LEITURA_elogio.c" />
+    <ClCompile Include="ABRIR_LEITURA_medico.c" />
+    <ClCompile Include="ABRIR_LEITURA_paciente.c" />
+    <ClCompile Include="ABRIR_LEITURA_reclamacao.c" />
+    <ClCompile Include="CONSULTAR_paciente.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_agendamento.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_colaborador.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_elogio.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_medico.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_paciente.c" />
+    <ClCompile Include="ESCREVER_ARQUIVO_reclamacao.c" />
+    <ClCompile Include="FUNCAO_busca_data_elogio.c" />
+    <ClCompile Include="FUNCAO_busca_data_reclamacao.c" />
+    <ClCompile Include="FUNCAO_busca_mes_agendamento.c" />
+    <ClCompile Include="FUNCAO_busca_mes_faturamento.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_codigo_id.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_data.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_data_e_unidade.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_data_periodo.c" />
+    <ClCompile Include="FUNCAO_CADASTRA_especialidade.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_mes_ano.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_nome.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_parametro_PACIENTE.c" />
+    <ClCompile Include="FUNCAO_CADASTRA_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_data_e_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_agendamento_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_codigo_id.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_codigo_id.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_nome.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_MEDICO_unidade.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_codigo_id.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_COLABORADOR_nome.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_nome.c" />
+    <ClCompile Include="FUNCAO_CONSULTA_PACIENTE_unidade.c" />
+    <ClCompile Include="FUNCAO_FATURAMENTO_mensal_unidade.c" />
+    <ClCompile Include="FUNCAO_selecionar_agendamento.c" />
+    <ClCompile Include="FUNCAO_TESTE.c" />
+    <ClCompile Include="FUNCAO_FATURAMENTO_diario_unidade.c" />
+    <ClCompile Include="FUNCAO_verificar_codigo_agendamento.c" />
+    <ClCompile Include="LER_ARQUIVO_agendamento.c" />
+    <ClCompile Include="LER_ARQUIVO_colaborador.c" />
+    <ClCompile Include="LER_ARQUIVO_reclamacao_elogio.c" />
+    <ClCompile Include="LER_ARQUIVO_especialidade_valor.c" />
+    <ClCompile Include="LER_ARQUIVO_medico.c" />
+    <ClCompile Include="CADASTRAR_agendamento.c" />
+    <ClCompile Include="FUNCAO_CAPTURA_usuario_senha.c" />
+    <ClCompile Include="LER_ARQUIVO_paciente.c" />
+    <ClCompile Include="ABRIR_LEITURA_usuario_senha.c" />
+    <ClCompile Include="LER_ARQUIVO_usuario_senha.c" />
+    <ClCompile Include="MENU_OPCAO_agendamento.c" />
+    <ClCompile Include="MENU_OPCAO_cadastro.c" />
+    <ClCompile Include="MENU_OPCAO_CONSULTA_agendamento.c" />
+    <ClCompile Include="MENU_OPCAO_principal.c" />
+    <ClCompile Include="FUNCAO_tela_de_acesso.c" />
+    <ClCompile Include="FUNCAO_esconde_senha.c" />
+    <ClCompile Include="MENU_OPCAO_reclamacao_elogio.c" />
+    <ClCompile Include="MENU_OPCAO_relatorio.c" />
+    <ClCompile Include="MENU_RELATORIO_elogio_registrados.c" />
+    <ClCompile Include="MENU_RELATORIO_FATURAMENTO_mensal_unidade.c" />
+    <ClCompile Include="PRINT_agendamento.c" />
+    <ClCompile Include="PRINT_agendamento_cancelado.c" />
+    <ClCompile Include="PRINT_boas_vindas.c" />
+    <ClCompile Include="PRINT_colaborador.c" />
+    <ClCompile Include="PRINT_comando_invalido.c" />
+    <ClCompile Include="PRINT_dados_gravados.c" />
+    <ClCompile Include="PRINT_data_atual.c" />
+    <ClCompile Include="PRINT_data_e_unidade_pesquisada.c" />
+    <ClCompile Include="PRINT_data_hora_sistema.c" />
+    <ClCompile Include="PRINT_data_pesquisada_periodo.c" />
+    <ClCompile Include="PRINT_desconectado_com_sucesso.c" />
+    <ClCompile Include="PRINT_elogio.c" />
+    <ClCompile Include="PRINT_encerrando_aplicacao.c" />
+    <ClCompile Include="PRINT_faturamento.c" />
+    <ClCompile Include="PRINT_medico.c" />
+    <ClCompile Include="PRINT_MENU_agendamento.c" />
+    <ClCompile Include="PRINT_MENU_CONSULTAR_colaborador.c" />
+    <ClCompile Include="PRINT_MENU_CONSULTAR_medico.c" />
+    <ClCompile Include="PRINT_MENU_CONSULTAR_paciente.c" />
+    <ClCompile Include="PRINT_MENU_faturamento.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_CONSULTA_agendamento.c" />
+    <ClCompile Include="PRINT_mes_agendamento.c" />
+    <ClCompile Include="PRINT_mes_pesquisado.c" />
+    <ClCompile Include="PRINT_nenhum_resultado_encontrado.c" />
+    <ClCompile Include="PRINT_data_pesquisada.c" />
+    <ClCompile Include="PRINT_fim_do_relatorio.c" />
+    <ClCompile Include="PRINT_MENU_cancelar_agendamento.c" />
+    <ClCompile Include="PRINT_MENU_CONSULTAR_agendamento.c" />
+    <ClCompile Include="PRINT_desenho_de_acesso.c" />
+    <ClCompile Include="PRINT_MENU_elogio.c" />
+    <ClCompile Include="PRINT_MENU_novo_agendamento.c" />
+    <ClCompile Include="PRINT_MENU_novo_cadastro.c" />
+    <ClCompile Include="PRINT_MENU_reclamacao.c" />
+    <ClCompile Include="PRINT_OPCAO_parametro_consulta.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_agendamento.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_cadastro.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_reclamacao_elogio.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_relatorio.c" />
+    <ClCompile Include="PRINT_OPCAO_POS_agendamento.c" />
+    <ClCompile Include="PRINT_OPCAO_POS_reclamacao.c" />
+    <ClCompile Include="PRINT_paciente.c" />
+    <ClCompile Include="PRINT_parametros_para_consulta.c" />
+    <ClCompile Include="PRINT_MENU_OPCAO_principal.c" />
+    <ClCompile Include="MENU_OPCAO_POS_agendamento.c" />
+    <ClCompile Include="PRINT_reclamacao.c" />
+    <ClCompile Include="PRINT_senha_master_invalida.c" />
+    <ClCompile Include="PRINT_tente_novamente.c" />
+    <ClCompile Include="MENU_RELATORIO_consulta_agendadas.c" />
+    <ClCompile Include="MENU_RELATORIO_reclamacao_registradas.c" />
+    <ClCompile Include="MENU_RELATORIO_FATURAMENTO_diario_unidade.c" />
+    <ClCompile Include="PRINT_FATURAMENTO_mensal.c" />
+    <ClCompile Include="SETUP_LOCALE.c" />
+    <ClCompile Include="FUNCAO_verificar_login.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="agendamento.h" />
+    <ClInclude Include="arquivos.h" />
+    <ClInclude Include="cabecalho.h" />
+    <ClInclude Include="cadastros.h" />
+    <ClInclude Include="colaborador.h" />
+    <ClInclude Include="definicoes.h" />
+    <ClInclude Include="funcoes.h" />
+    <ClInclude Include="medico.h" />
+    <ClInclude Include="menus.h" />
+    <ClInclude Include="login.h" />
+    <ClInclude Include="paciente.h" />
+    <ClInclude Include="prints.h" />
+    <ClInclude Include="relatorios.h" />
+    <ClInclude Include="structs.h" />
+    <ClInclude Include="variaveis.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

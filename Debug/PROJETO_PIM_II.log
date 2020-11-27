@@ -1,0 +1,255 @@
+﻿  01_MAIN.c
+  ABRIR_ATUALIZA_agendamento.c
+  ABRIR_ATUALIZA_colaborador.c
+  ABRIR_ESCRITA_agendamento.c
+  ABRIR_ESCRITA_colaborador.c
+  ABRIR_ESCRITA_elogio.c
+  ABRIR_ESCRITA_medico.c
+  ABRIR_ESCRITA_paciente.c
+  ABRIR_ESCRITA_reclamacao.c
+  CADASTRAR_colaborador.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CADASTRAR_colaborador.c(18,30): warning C4098: 'CADASTRAR_colaborador': função 'void' retornando um valor
+  CADASTRAR_elogio.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CADASTRAR_elogio.c(18,39): warning C4098: 'CADASTRAR_elogio': função 'void' retornando um valor
+  CADASTRAR_medico.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CADASTRAR_medico.c(18,30): warning C4098: 'CADASTRAR_medico': função 'void' retornando um valor
+  CADASTRAR_paciente.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CADASTRAR_paciente.c(18,30): warning C4098: 'CADASTRAR_paciente': função 'void' retornando um valor
+  FUNCAO_arquivo_nao_encontrado.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_arquivo_nao_encontrado.c(10,31): warning C4098: 'FUNCAO_arquivo_nao_encontrado': função 'void' retornando um valor
+  FUNCAO_CADASTRAR_reclamacao.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRAR_reclamacao.c(18,39): warning C4098: 'FUNCAO_CADASTRAR_reclamacao': função 'void' retornando um valor
+  FUNCAO_CANCELAR_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CANCELAR_agendamento.c(19,23): warning C4047: '>=': 'unsigned int [10]' difere em níveis de indireção de 'int'
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CANCELAR_agendamento.c(70,41): warning C4098: 'FUNCAO_CANCELAR_agendamento': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CANCELAR_agendamento.c(76,34): warning C4098: 'FUNCAO_CANCELAR_agendamento': função 'void' retornando um valor
+  CONSULTAR_colaborador.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CONSULTAR_colaborador.c(12,31): warning C4098: 'CONSULTAR_colaborador': função 'void' retornando um valor
+  CONSULTAR_medico.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CONSULTAR_medico.c(12,31): warning C4098: 'CONSULTAR_medico': função 'void' retornando um valor
+  FUNCAO_CAPTURA_parametro_COLABORADOR.c
+  FUNCAO_CAPTURA_parametro_MEDICO.c
+  Gerando Código...
+  Compilando...
+  FUNCAO_CAPTURA_unidade.c
+  FUNCAO_CONSULTA_agendamento_data.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_data.c(48,34): warning C4098: 'FUNCAO_CONSULTA_agendamento_data': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_data.c(51,33): warning C4098: 'FUNCAO_CONSULTA_agendamento_data': função 'void' retornando um valor
+  ABRIR_LEITURA_agendamento.c
+  ABRIR_LEITURA_colaborador.c
+  ABRIR_LEITURA_elogio.c
+  ABRIR_LEITURA_medico.c
+  ABRIR_LEITURA_paciente.c
+  ABRIR_LEITURA_reclamacao.c
+  CONSULTAR_paciente.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CONSULTAR_paciente.c(12,31): warning C4098: 'CONSULTAR_paciente': função 'void' retornando um valor
+  ESCREVER_ARQUIVO_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\ESCREVER_ARQUIVO_agendamento.c(6,18): warning C4020: 'fflush': muitos parâmetros reais
+  ESCREVER_ARQUIVO_colaborador.c
+  ESCREVER_ARQUIVO_elogio.c
+  ESCREVER_ARQUIVO_medico.c
+  ESCREVER_ARQUIVO_paciente.c
+  ESCREVER_ARQUIVO_reclamacao.c
+  FUNCAO_busca_data_elogio.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_busca_data_elogio.c(108,31): warning C4098: 'FUNCAO_busca_data_elogio': função 'void' retornando um valor
+  FUNCAO_busca_data_reclamacao.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_busca_data_reclamacao.c(107,31): warning C4098: 'FUNCAO_busca_data_reclamacao': função 'void' retornando um valor
+  FUNCAO_busca_mes_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_busca_mes_agendamento.c(69,31): warning C4098: 'FUNCAO_busca_mes_agendamento': função 'void' retornando um valor
+  FUNCAO_busca_mes_faturamento.c
+  FUNCAO_CAPTURA_codigo_id.c
+  Gerando Código...
+  Compilando...
+  FUNCAO_CAPTURA_data.c
+  FUNCAO_CAPTURA_data_e_unidade.c
+  FUNCAO_CAPTURA_data_periodo.c
+  FUNCAO_CADASTRA_especialidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(25,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(25,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(26,42): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(26,42): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(27,37): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(27,37): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(31,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(31,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(32,44): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(32,44): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(33,37): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(33,37): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(37,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(37,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(38,45): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(38,45): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(39,37): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(39,37): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(43,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(43,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(44,43): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(44,43): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(45,37): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(45,37): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(49,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(49,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(50,44): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(50,44): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(51,38): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(51,38): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(55,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(55,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(56,45): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(56,45): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(57,37): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(57,37): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_especialidade.c(6,13): warning C4101: 'j': variável local não referenciada
+  FUNCAO_CAPTURA_mes_ano.c
+  FUNCAO_CAPTURA_nome.c
+  FUNCAO_CAPTURA_parametro_PACIENTE.c
+  FUNCAO_CADASTRA_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(22,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(22,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(23,39): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(23,39): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(27,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(27,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(28,38): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(28,38): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(32,35): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(32,35): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(33,38): warning C4474: 'fprintf': excesso de argumentos transmitidos para cadeia de caracteres de formato
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CADASTRA_unidade.c(33,38): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 1 foram fornecidos
+  FUNCAO_CONSULTA_agendamento_data_e_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_data_e_unidade.c(52,34): warning C4098: 'FUNCAO_CONSULTA_agendamento_data_e_unidade': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_data_e_unidade.c(55,33): warning C4098: 'FUNCAO_CONSULTA_agendamento_data_e_unidade': função 'void' retornando um valor
+  FUNCAO_CONSULTA_agendamento_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_unidade.c(37,34): warning C4098: 'FUNCAO_CONSULTA_agendamento_unidade': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_agendamento_unidade.c(40,33): warning C4098: 'FUNCAO_CONSULTA_agendamento_unidade': função 'void' retornando um valor
+  FUNCAO_CONSULTA_COLABORADOR_codigo_id.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_COLABORADOR_codigo_id.c(30,32): warning C4098: 'FUNCAO_CONSULTA_COLABORADOR_codigo_id': função 'void' retornando um valor
+  FUNCAO_CONSULTA_COLABORADOR_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_COLABORADOR_unidade.c(30,32): warning C4098: 'FUNCAO_CONSULTA_COLABORADOR_unidade': função 'void' retornando um valor
+  FUNCAO_CONSULTA_MEDICO_codigo_id.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_MEDICO_codigo_id.c(30,32): warning C4098: 'FUNCAO_CONSULTA_MEDICO_codigo_id': função 'void' retornando um valor
+  FUNCAO_CONSULTA_MEDICO_nome.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_MEDICO_nome.c(30,32): warning C4098: 'FUNCAO_CONSULTA_MEDICO_nome': função 'void' retornando um valor
+  FUNCAO_CONSULTA_MEDICO_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_MEDICO_unidade.c(30,32): warning C4098: 'FUNCAO_CONSULTA_MEDICO_unidade': função 'void' retornando um valor
+  FUNCAO_CONSULTA_PACIENTE_codigo_id.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_PACIENTE_codigo_id.c(30,32): warning C4098: 'FUNCAO_CONSULTA_PACIENTE_codigo_id': função 'void' retornando um valor
+  FUNCAO_CONSULTA_COLABORADOR_nome.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_COLABORADOR_nome.c(30,32): warning C4098: 'FUNCAO_CONSULTA_COLABORADOR_nome': função 'void' retornando um valor
+  FUNCAO_CONSULTA_PACIENTE_nome.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_PACIENTE_nome.c(30,32): warning C4098: 'FUNCAO_CONSULTA_PACIENTE_nome': função 'void' retornando um valor
+  FUNCAO_CONSULTA_PACIENTE_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CONSULTA_PACIENTE_unidade.c(30,32): warning C4098: 'FUNCAO_CONSULTA_PACIENTE_unidade': função 'void' retornando um valor
+  FUNCAO_FATURAMENTO_mensal_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_mensal_unidade.c(58,32): warning C4098: 'FUNCAO_FATURAMENTO_mensal_unidade': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_mensal_unidade.c(63,63): warning C4098: 'FUNCAO_FATURAMENTO_mensal_unidade': função 'void' retornando um valor
+  Gerando Código...
+  Compilando...
+  FUNCAO_selecionar_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_selecionar_agendamento.c(10,52): warning C4098: 'FUNCAO_selecionar_agendamento': função 'void' retornando um valor
+  FUNCAO_TESTE.c
+  FUNCAO_FATURAMENTO_diario_unidade.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_diario_unidade.c(67,32): warning C4098: 'FUNCAO_FATURAMENTO_diario_unidade': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_diario_unidade.c(71,37): warning C4047: '=': 'char' difere em níveis de indireção de 'char *'
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_diario_unidade.c(73,64): warning C4020: 'PRINT_FATURAMENTO_mensal': muitos parâmetros reais
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_diario_unidade.c(73,78): warning C4098: 'FUNCAO_FATURAMENTO_diario_unidade': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_FATURAMENTO_diario_unidade.c(7,1): warning C4047: 'inicializando': 'char' difere em níveis de indireção de 'char [1]'
+  FUNCAO_verificar_codigo_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_verificar_codigo_agendamento.c(66,52): warning C4098: 'FUNCAO_verificar_codigo_agendamento': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_verificar_codigo_agendamento.c(74,33): warning C4098: 'FUNCAO_verificar_codigo_agendamento': função 'void' retornando um valor
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_verificar_codigo_agendamento.c(10,7): warning C4101: 'sim_ou_nao': variável local não referenciada
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_verificar_codigo_agendamento.c(10,19): warning C4101: 'ch': variável local não referenciada
+  LER_ARQUIVO_agendamento.c
+  LER_ARQUIVO_colaborador.c
+  LER_ARQUIVO_reclamacao_elogio.c
+  LER_ARQUIVO_especialidade_valor.c
+  LER_ARQUIVO_medico.c
+  CADASTRAR_agendamento.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\CADASTRAR_agendamento.c(18,37): warning C4098: 'CADASTRAR_agendamento': função 'void' retornando um valor
+  FUNCAO_CAPTURA_usuario_senha.c
+  LER_ARQUIVO_paciente.c
+  ABRIR_LEITURA_usuario_senha.c
+  LER_ARQUIVO_usuario_senha.c
+  MENU_OPCAO_agendamento.c
+  MENU_OPCAO_cadastro.c
+  MENU_OPCAO_CONSULTA_agendamento.c
+  MENU_OPCAO_principal.c
+  FUNCAO_tela_de_acesso.c
+  FUNCAO_esconde_senha.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(12,15): warning C4087: '_getch': declarado com lista de parâmetros 'void'
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(28,49): warning C4047: 'função': 'char *' difere em níveis de indireção de 'char (*)[10]'
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(28,32): warning C4024: 'FUNCAO_verificar_login': tipos diferentes para parâmetro formal e real 1
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(28,66): warning C4047: 'função': 'char *' difere em níveis de indireção de 'char (*)[10]'
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(28,51): warning C4024: 'FUNCAO_verificar_login': tipos diferentes para parâmetro formal e real 2
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_esconde_senha.c(6,1): warning C4047: 'inicializando': 'char' difere em níveis de indireção de 'void *'
+  Gerando Código...
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\FUNCAO_CAPTURA_usuario_senha.c(13): warning C4716: 'FUNCAO_CAPTURA_usuario_senha': deve retornar um valor
+  Compilando...
+  MENU_OPCAO_reclamacao_elogio.c
+  MENU_OPCAO_relatorio.c
+  MENU_RELATORIO_elogio_registrados.c
+  MENU_RELATORIO_FATURAMENTO_mensal_unidade.c
+  PRINT_agendamento.c
+  PRINT_agendamento_cancelado.c
+  PRINT_boas_vindas.c
+  PRINT_colaborador.c
+  PRINT_comando_invalido.c
+  PRINT_dados_gravados.c
+  PRINT_data_atual.c
+  PRINT_data_e_unidade_pesquisada.c
+  PRINT_data_hora_sistema.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\PRINT_data_hora_sistema.c(14,2): warning C4033: 'PRINT_data_hora_sistema' deve retornar um valor
+  PRINT_data_pesquisada_periodo.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\PRINT_data_pesquisada_periodo.c(22,10): warning C4098: 'PRINT_data_pesquisada_periodo': função 'void' retornando um valor
+  PRINT_desconectado_com_sucesso.c
+  PRINT_elogio.c
+  PRINT_encerrando_aplicacao.c
+  PRINT_faturamento.c
+  PRINT_medico.c
+  PRINT_MENU_agendamento.c
+  Gerando Código...
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\PRINT_data_hora_sistema.c(15): warning C4716: 'PRINT_data_hora_sistema': deve retornar um valor
+  Compilando...
+  PRINT_MENU_CONSULTAR_colaborador.c
+  PRINT_MENU_CONSULTAR_medico.c
+  PRINT_MENU_CONSULTAR_paciente.c
+  PRINT_MENU_faturamento.c
+  PRINT_MENU_OPCAO_CONSULTA_agendamento.c
+  PRINT_mes_agendamento.c
+  PRINT_mes_pesquisado.c
+  PRINT_nenhum_resultado_encontrado.c
+  PRINT_data_pesquisada.c
+  PRINT_fim_do_relatorio.c
+  PRINT_MENU_cancelar_agendamento.c
+  PRINT_MENU_CONSULTAR_agendamento.c
+  PRINT_desenho_de_acesso.c
+  PRINT_MENU_elogio.c
+  PRINT_MENU_novo_agendamento.c
+  PRINT_MENU_novo_cadastro.c
+  PRINT_MENU_reclamacao.c
+  PRINT_OPCAO_parametro_consulta.c
+  PRINT_MENU_OPCAO_agendamento.c
+  PRINT_MENU_OPCAO_cadastro.c
+  Gerando Código...
+  Compilando...
+  PRINT_MENU_OPCAO_reclamacao_elogio.c
+  PRINT_MENU_OPCAO_relatorio.c
+  PRINT_OPCAO_POS_agendamento.c
+  PRINT_OPCAO_POS_reclamacao.c
+  PRINT_paciente.c
+  PRINT_parametros_para_consulta.c
+  PRINT_MENU_OPCAO_principal.c
+  MENU_OPCAO_POS_agendamento.c
+  PRINT_reclamacao.c
+  PRINT_senha_master_invalida.c
+  PRINT_tente_novamente.c
+  MENU_RELATORIO_consulta_agendadas.c
+  MENU_RELATORIO_reclamacao_registradas.c
+  MENU_RELATORIO_FATURAMENTO_diario_unidade.c
+  PRINT_FATURAMENTO_mensal.c
+C:\Users\Usuário\source\repos\PROJETO_PIM_II\PROJETO_PIM_II\PRINT_FATURAMENTO_mensal.c(11,31): warning C4098: 'PRINT_FATURAMENTO_mensal': função 'void' retornando um valor
+  SETUP_LOCALE.c
+  FUNCAO_verificar_login.c
+  Gerando Código...
+  PROJETO_PIM_II.vcxproj -> C:\Users\Usuário\source\repos\PROJETO_PIM_II\Debug\PROJETO_PIM_II.exe
